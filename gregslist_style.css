@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background-color: #f2f2f2;
+	border: 1px solid #e6e6e6;
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	display: block;
+}
+
+nav h1 {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 12px;
+	font-size: 1.8em;
+}
+
+nav ul {
+	display: inline-block;
+	float: right;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+	font-size: 1.5em;
+
+}
+
+ nav a {
+	text-decoration: none;
+	color: purple;
+}
+
+form {
+	position: relative;
+	top: 100px;
+	left:120px;
+}
+
+#searchbar {
+	margin-left: 10px;
+}
+
+#searchbox {
+	width: 500px;
+	height: 40px;
+	display: inline-block;
+	border: 1px solid #e6e6e6;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#searchbutton {
+	width: 38px;
+	height: 38px;
+	display: inline-block;
+	position: relative;
+	top: 17px;
+	border: 1px solid #e6e6e6;
+	border-radius: 10px;
+}
+
+#resultsnav {
+	position: relative;
+	top: 110px;
+	left: 90px;
+	text-decoration: none;
+	color: black;
+}
+
+#resultsnav li {
+	list-style: none;
+	display: inline-block;
+	font-size: 1.3em;
+	border: 1px solid #e6e6e6;
+	padding: 6px;
+}
+
+#previous {
+	border-radius: 10px 0px 0px 10px;
+	border-right: none;
+	margin-right: -.19em;
+}
+
+#next {
+	border-radius: 0px 10px 10px 0px;
+	border-left: none;
+	margin-left: -.19em;
+}
+
+#resultsnav a {
+	text-decoration: none;
+	color: black;
+}
+
+#results {
+	margin-left: 130px;
+	position: relative;
+	top: 120px;
+}
+
+.listing {
+	margin-bottom: -20px;
+}
+
+.listing p {
+	margin-right: 5px;
+}
+
+.jobdate, .job, .joblocation {
+	color: grey;
+	font-size: 1.2em;
+	display: inline-block;
+}
+
+.job a {
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
